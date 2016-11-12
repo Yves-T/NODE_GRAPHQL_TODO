@@ -1,0 +1,15 @@
+    {
+      "extends": "eslint-config-google",
+      "parser": "babel-eslint",
+      "ecmaFeatures": {
+        "jsx": true,
+        "modules": false
+      },
+      "rules": {
+        "space-before-function-paren": ["error", {
+          "anonymous": "always",
+          "named": "always",
+          "asyncArrow": "ignore"
+        }]
+      }
+    }
